@@ -4,7 +4,8 @@
   "description": "Employee Directory Web App , that handles displaying Employees with all their info and perform CRUD operations.",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js"
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^6.7.0"
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20"
   }
 }
